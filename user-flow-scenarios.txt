@@ -1,0 +1,28 @@
+1. Checking news and requesting leave
+   a) visit enterprise-demo.orangehrmlive.com
+   b) login as linda anderson
+   c) visit the first news article
+   d) print out article header and body to STDOUT
+   e) go back to dashboard
+   f) visit "apply leave" page
+   g) apply for "Test Leave USA" leave from 1st Jul to 15th Jul 2018 with comment "Gardening."
+
+2. The Wikipedia "Dead Language Game"
+   a) visit en.wikipedia.org/wiki/Main_Page
+   b) click "random article"
+   c) click first (non-IPA) link in main article body
+   d) increment jumps counter
+   e) if page is "Greek language", "Latin" or "Ancient Greek", print the number of jumps
+   f) otherwise goto c)
+
+3. Thedemosite
+   a) visit thedemosite.co.uk
+   b) go to add user page
+   c) add user test/test
+   d) go to login page
+   e) login to user test/test
+   f) check login is successful
+
+4. Bubble-sort
+   a) go to the sortable page
+   b) bubble sort the elements

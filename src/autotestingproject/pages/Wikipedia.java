@@ -7,10 +7,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Wikipedia {
 
-	public WebDriver getDriver() {
-		return driver;
-	}
-
 	private By randomPage = By.xpath("//li[@id=\"n-randompage\"]/a");
 	private By firstLink = By.xpath("//div[@id=\"mw-content-text\"]/p/a");
 	private By contentPanel = By.id("mw-content-text");

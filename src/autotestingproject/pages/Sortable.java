@@ -1,7 +1,6 @@
 package autotestingproject.pages;
 
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,7 +36,6 @@ public class Sortable {
 	}
 	
 	public void bubbleSort(){
-		try {
 		boolean unSorted = true;
 		while (unSorted){
 			unSorted = false;
@@ -49,9 +47,6 @@ public class Sortable {
 					dragToPlace(driver, ii).perform();
 				}
 			}
-		}
-		} catch (NoSuchElementException enfe){
-			System.out.println(enfe.getMessage());
 		}
 	}
 	

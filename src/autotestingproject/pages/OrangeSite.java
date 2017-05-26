@@ -13,10 +13,6 @@ public class OrangeSite {
 
     private WebDriver driver;
 
-    public WebDriver getDriver(){
-	return driver;
-    }
-
     private By usernameLogin = By.id("txtUsername");
     private By passwordLogin = By.id("txtPassword");
     private By buttonLogin = By.id("btnLogin");
